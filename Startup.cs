@@ -34,6 +34,18 @@ namespace ProtonComputers
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddAuthentication()
+                .AddGoogle(options =>
+                {
+                    IConfigurationSection googleAuthNSection =
+                        Configuration.GetSection("Authentication:Google");
+                    options.ClientId = googleAuthNSection["ClientId"];
+                    options.ClientSecret = googleAuthNSection["ClientSecret"];
+                    /* Another Way Of doing Google Authentication*/
+                    //options.ClientId = "752254142762-lkd2iujq7nnkg9kfii4hh23kv5f559s6.apps.googleusercontent.com";
+                    //options.ClientSecret = "V9FkUrYTlJWGqOezrXot0TTx";
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
