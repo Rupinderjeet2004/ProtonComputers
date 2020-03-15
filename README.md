@@ -15,7 +15,7 @@ It has to options on nav bar one is for adding products and one for manufacturer
    - Only authenticated users can now add, edit and delete data.
    - Only anonymous users can view the list of data but cannot see the Create, Edit, or Delete links.
 
-3. Added Social Authentication with Google.
+3. Added Social Authentication with **Google**.
    - Google Authentication Working on Both Local and Online Environment.
    - Stored All the Api Keys in **appsettings.json** file rather than inside the C# code.
 
@@ -25,3 +25,5 @@ It has to options on nav bar one is for adding products and one for manufacturer
 5. Azure
    - Publish to the site to Azure or any other web server that supports ASP.NET and SQL Server. Include this link in your README.md file.
      - **Azure Link**: https://protoncomputers20.azurewebsites.net
+- Bonus
+  - Added **Twitter** Login on Both Local and Online Environment.
