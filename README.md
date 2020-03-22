@@ -2,7 +2,7 @@
 This Website Provide Computer Hardware Products to Customers. From this website customers can purchase various computer hardware parts like Rams, Motherboards, CPU coolers and many more.
 It has to options on nav bar one is for adding products and one for manufacturers. Link to the website with working database.
 - **Azure Link**: https://protoncomputers20.azurewebsites.net
-# Assignment-2a
+# Assignment Part-1
 1. Used Identity.sql script to create the necessary ASPNET Identity tables in database.
    - Configured Identity in Startup.cs.
    - Changed DbContext class so it inherits from IdentityDbContext.
@@ -27,3 +27,7 @@ It has to options on nav bar one is for adding products and one for manufacturer
      - **Azure Link**: https://protoncomputers20.azurewebsites.net
 - Bonus
   - Added **Twitter** Login on Both Local and Online Environment.
+
+# Assignment Part-2
+##### Tool Used - XUnit   
+1. Created a Unit Testing project within existing project solution and created a Test Class for HomeController to verify the Index and About Views.
