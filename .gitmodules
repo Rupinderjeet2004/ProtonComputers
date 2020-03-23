@@ -1,0 +1,3 @@
+[submodule "sub-dir"]
+	path = sub-dir
+	url = https://github.com/Rupinderjeet2004/sub-dir.git
