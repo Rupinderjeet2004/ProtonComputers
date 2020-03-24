@@ -28,3 +28,19 @@ It has to options on nav bar one is for adding products and one for manufacturer
 - Bonus
   - Added **Twitter** Login on Both Local and Online Environment.
 
+# Assignment-2 Part-2
+
+#### Before Running the Project.
+1. Add Reference of the Main Project into UnitTest solution.
+   - Right Click on Dependencies then Add Reference as shown in Image Below.
+![Step 1 Image](wwwroot/screenshots/Step1.png)
+2. Select the Project from the list and click OK.
+   - As shown in above Image.
+![Step 2 Image](wwwroot/screenshots/Step2.png) 
+3. If you get these types of errors.
+![Step 3 Image](wwwroot/screenshots/Step3.png)
+   - Then Delete the Obj folder from sub-dir folder. 
+![Step 4 Image](wwwroot/screenshots/Step4.png) 
+### Summary of Assignment-2 Part-2
+1. Created a Unit Testing project within your solution and created a HomeControllerTest.
+   
