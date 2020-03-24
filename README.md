@@ -30,16 +30,36 @@ It has to options on nav bar one is for adding products and one for manufacturer
 
 # Assignment-2 Part-2
 
-#### Before Running the Project.
-1. Add Reference of the Main Project into UnitTest solution.
-   - Right Click on Dependencies then Add Reference as shown in Image Below.
+#### After Cloning the Project Follow these steps-
+1. You will get this error when you first open the project. Click OK.
 ![Step 1 Image](wwwroot/screenshots/Step1.png)
-2. Select the Project from the list and click OK.As shown in Image below.
-![Step 2 Image](wwwroot/screenshots/Step2.png) 
-3. If you get these types of errors.
+2. As you can see ProtonComputerTests solution is Unloaded(Above Green Line).
+![Step 2 Image](wwwroot/screenshots/Step2_LI.jpg) 
+3. Right Click on it and Then Click Remove to remove it from project.
 ![Step 3 Image](wwwroot/screenshots/Step3.png)
-Then Delete the Obj folder from sub-dir folder. 
+4. Now Right Click on Main Project Solution in my case it is Proton Computers, then click on Add>Existing Project.
 ![Step 4 Image](wwwroot/screenshots/Step4.png) 
+5. Then locate the sub-dir included in the project and select ProtonComputersTets.csproj from it and click open.
+![Step 5 Image](wwwroot/screenshots/Step5_LI.jpg)
+6. As you can see unit test solution is loaded but there is yellow warning triangle on the dependencies which means we are refering wrong project solution.
+![Step 6 Image](wwwroot/screenshots/Step6_LI.jpg) 
+7. To get rid of yellow triangle go in dependencies and then into projects and remove the existing reference of the project using right click and remove action. As Shown in Image.
+![Step 7 Image](wwwroot/screenshots/Step7.png)
+8. Right After removing old reference Right click on Dependencies and Click Add Reference.
+![Step 8 Image](wwwroot/screenshots/Step8.png) 
+9. Select the Project from the list and click OK.As shown in Image.
+![Step 9 Image](wwwroot/screenshots/Step9.png)
+10. As you can see there is no yellow warning triangle now.
+![Step 10 Image](wwwroot/screenshots/Step10_LI.jpg) 
+11. Now when you run the project you will get these errors. 
+![Step 11 Image](wwwroot/screenshots/Step11.png)
+12. To Eliminate these errors just click on any file and delete the highlighed code from the file even if the file is different from the screenshot.
+![Step 12 Image](wwwroot/screenshots/Step12.png) 
+Just Like the Image below.
+![Step 13 Image](wwwroot/screenshots/Step13.png)
+13. Now You can run the project and all test will run as shown below.
+![Step 14 Image](wwwroot/screenshots/Step14.png)
+
 ### Summary of Assignment-2 Part-2
 1. Created a Unit Testing project within my main project solution and created a HomeControllerTest.
    
