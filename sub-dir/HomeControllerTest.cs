@@ -1,36 +1,43 @@
 using Microsoft.AspNetCore.Mvc;
 using ProtonComputers.Controllers;
-using System;
 using Xunit;
 
-namespace XUnitTestProject
+namespace ProtonComputerTests
 {
+
     public class HomeControllerTest
     {
-        [Fact]
-        public void VerifyIndexViewType()
+        // private HomeController _context;
+
+        [Fact(DisplayName = "Index should return default view")]
+        public void Index_should_return_default_view()
         {
             //Arrange
             var controller = new HomeController();
 
             //Act
-            var result = controller.Index();
+            var result = controller.Index() as ViewResult;
 
             //Assert
-            Assert.IsType<ViewResult>(result);
+            Assert.NotNull(result);
+            Assert.True(string.IsNullOrEmpty(result.ViewName) || result.ViewName == "Index");
+
         }
 
-        [Fact]
-        public void VerifyAboutViewType()
+        [Fact(DisplayName = "About should return default view")]
+        public void About_should_return_default_view()
         {
             //Arrange
             var controller = new HomeController();
 
             //Act
-            var result = controller.About();
+            var result = controller.About() as ViewResult;
 
             //Assert
-            Assert.IsType<ViewResult>(result);
+            Assert.NotNull(result);
+            Assert.True(string.IsNullOrEmpty(result.ViewName) || result.ViewName == "About");
+
         }
+
     }
 }

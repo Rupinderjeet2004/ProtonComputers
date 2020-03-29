@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\frustrated\ProtonComputers.csproj" />
+    <ProjectReference Include="..\ProtonComputers.csproj" />
   </ItemGroup>
 
 </Project>
