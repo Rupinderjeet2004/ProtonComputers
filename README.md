@@ -61,5 +61,7 @@ Just Like the Image below.
 ![Step 14 Image](wwwroot/screenshots/Step14.png)
 
 ### Summary of Assignment-2 Part-2
-1. Created a Unit Testing project within my main project solution and created a HomeControllerTest.
+1. Created a Unit Testing project within my main project solution.
+2. Added Unit Tests for Home, manufacturers and Products Controllers.
+3. Covered Index, Details methods to test as much scenarios i can. 
    
