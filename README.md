@@ -63,5 +63,8 @@ Just Like the Image below.
 ### Summary of Assignment-2 Part-2
 1. Created a Unit Testing project within my main project solution.
 2. Added Unit Tests for Home, manufacturers and Products Controllers.
-3. Covered Index, Details methods to test as much scenarios i can. 
+3. Covered Index, Details methods to test as much scenarios i can.
+
+# Assignment-2 Part-3
+  - Implemented Full Create-Read-Update-Delete functionality for ManufacturersController.
    
