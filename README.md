@@ -66,5 +66,7 @@ Just Like the Image below.
 3. Covered Index, Details methods to test as much scenarios i can.
 
 # Assignment-2 Part-3
-  - Implemented Full Create-Read-Update-Delete functionality for ManufacturersController.
+  - Implemented and Tested Full Create-Read-Update-Delete functionality for ManufacturersController. 
+  - There is one Additional Products Api controller also available. But i didnot tested it. So please test only **ManufacturersController**.
+  - **Azure Link**: https://protoncomputers20.azurewebsites.net
    
